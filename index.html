@@ -26,7 +26,7 @@
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
                     <li class="nav__item">
-                        <a href="#home" class="nav__link">
+                        <a href="#home" class="nav__link active-link">
                             <i class="uil uil-home nav__icon"></i> Home
                         </a>
                     </li>
@@ -59,6 +59,9 @@
                 <i class="uil uil-times nav__close" id="nav-close"></i>
             </div>
             <div class="nav__btns">
+                <!-- Theme Change button -->
+                <i class="uil uil-moon change-theme" id="theme-button"></i>
+                
                 <div class="nav__toggle" id="nav-toggle">
                     <i class="uil uil-apps"></i>
                 </div>
@@ -955,40 +958,64 @@
             <h2 class="section__title">CONTACT ME</h2>
             <span class="section__subtitle">Crisodevelop</span>
             <div class="social-contact">
-            <!-- Facebook Icon -->
-            <div class="icon fb">
-                <i class="uil uil-facebook-f"></i>
-                <span>Facebook</span>
-            </div>
 
-            <!-- Linkedin Icon -->
-            <div class="icon lnk">
-                <i class="uil uil-linkedin"></i>
-                <span>Linkedin</span>
-            </div>
+                <div class="icon fb">
+                    <i class="uil uil-facebook-f"></i>
+                    <span>Facebook</span>
+                </div>
 
-            <!-- GitHub Icon -->
-            <div class="icon git">
-                <i class="uil uil-github"></i>
-                <span>GitHub</span>
-            </div>
 
-            <!-- YouTube Icon -->
-            <div class="icon yt">
-                <i class="uil uil-youtube"></i>
-                <span>YouTube</span>
+                <div class="icon lnk">
+                    <i class="uil uil-linkedin"></i>
+                    <span>Linkedin</span>
+                </div>
+
+
+                <div class="icon git">
+                    <i class="uil uil-github"></i>
+                    <span>GitHub</span>
+                </div>
+
+                <div class="icon yt">
+                    <i class="uil uil-youtube"></i>
+                    <span>YouTube</span>
+                </div>
             </div>
-        </div>
         </section>
     </main>
 
     <!--==================== FOOTER ====================-->
     <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Crisodevelop</h1>
+                    <span class="footer__subtitle">
+                        Web Developer
+                    </span>
+                </div>
 
+                <ul class="footer__links">
+                    <li>
+                        <a href="#services" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolios</a>
+                    </li>
+                </ul>
+
+
+                <p class="footer__copy">
+                    &#169; Crisodevelop. All right reserved
+                </p>
+            </div>
+        </div>
     </footer>
 
     <!--==================== SCROLL TOP ====================-->
-
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
 
     <!--==================== SWIPER JS ====================-->
     <script src="/assets/js/swiper-bundle.min.js"></script>
