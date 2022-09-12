@@ -912,7 +912,7 @@ img {
   color: #fff;
 }
 
-.icon:hover i {
+.icon:hover i, a {
   color: #fff;
 }
 
