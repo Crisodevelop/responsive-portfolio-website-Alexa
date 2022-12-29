@@ -17,8 +17,13 @@
     <!--==================== Favicon ====================-->
     <link rel="shortcut icon" href="assets/img/Logo.png" type="image/x-icon">
 
+    <!--==================== Seo ====================-->
+    <meta name="description" content="El mejor creador de páginas web + Seo, tu amigo crisodevelop desde república dominica para el mundo">
+    <meta name="keywords" content="paginas web, seo, república dominica">
+    <meta name="author" content="Crisodevelop">
 
-    <title>Crisodevelop</title>
+
+    <title>Creador de páginas web + Seo - República dominicana </title>
 </head>
 
 <body>
@@ -33,26 +38,31 @@
                             <i class="uil uil-home nav__icon"></i> Inicio
                         </a>
                     </li>
+
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">
-                            <i class="uil uil-user nav__icon"></i> Sobre mí
+                        <a href="#portafolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Portafolio
                         </a>
                     </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">
-                            <i class="uil uil-file-alt nav__icon"></i> Habilidades
-                        </a>
-                    </li>
+
+                 
                     <li class="nav__item">
                         <a href="#services" class="nav__link">
                             <i class="uil uil-briefcase-alt nav__icon"></i> Servicios
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i> Portafolio
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i> Sobre mí
                         </a>
                     </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i> Habilidades
+                        </a>
+                    </li>
+                  
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
                             <i class="uil uil-message nav__icon"></i> Contactos
@@ -123,18 +133,22 @@
                             Hola soy Crisodevelop.
                         </h1>
                         <h3 class="home__subtitle">
-                            Desarrollador web
+                            Creador de páginas web + Seo.
                         </h3>
                         <p class="home__description">
-                            Creando proyectos increíbles, ya estás listo.. </p>
-                        <a href="pago" class="button button--flex">
-                            Comprar <i class="uil uil-message button__icon"></i>
+                            Desde república dominica para el mundo</p>
+                        <a href="#"  onclick="showPopup()" class="button button--flex">
+                            Contactanos <i class="uil uil-message button__icon"></i>
                         </a>
+
+                       <dialog>
+                        
+                       </dialog>
                     </div>
                 </div>
 
                 <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button--flex">
+                    <a href="#portafolio" class="home__scroll-button button--flex">
                         <i class="uil uil-mouse-alt-2 home__scroll-mouse"></i>
                         <span class="home__scroll-name">Hacia abajo</span>
                         <i class="uil uil-arrow-down home__scroll-arrow"></i>
@@ -142,21 +156,441 @@
                 </div>
             </div>
         </section>
+
+           <!--==================== PORTFOLIO ====================-->
+           <section class="portfolio section" id="portafolio">
+            <h2 class="section__title"> Portafolio</h2>
+            <span class="section__subtitle">
+                Trabajos mas reciente
+            </span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1 ====================-->
+
+                    <div class="portfolio__content grid swiper-slide">
+
+
+                        <img src="assets/img/Pagina web Jcweddinggrou.png" alt="sitio de bodas" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">
+                                Jcweddinggrou / Sitio web moderno
+                            </h3>
+                            <p class="portfolio__description">
+                                Web responsive, un diseño elegante y bastante moderno para lograr un hermoso sitio de
+                                bodas </p>
+                            <a href="https://jcweddinggroup.com/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Ver más
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 2 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/Pagina web FitnnessRepublicrd.png" alt="Gym online" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">
+                                FitnnessRepublicrd
+                            </h3>
+                            <p class="portfolio__description">
+                                The best Online Gym in the world.
+                            </p>
+                            <a href="https://fitnessrepublicrd.com/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Ver más
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+
+                    </div>
+                    <!--==================== PORTFOLIO 3 ====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/Pagina web SanaelWeddingsboat.png" alt="Sitio de bodas en botes" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">
+                                SanaelWeddingsboat 
+                            </h3>
+                            <p class="portfolio__description">
+                                Maravillosa web en dos idiomas con un diseño acorde a la necesidad del cliente y
+                                ofreciendo sus grandes bodas en alta mar. </p>
+                            <a href="https://www.sanaelweddingsboat.com/" target="_blank"
+                                class="button button--flex button--small portfolio__button">
+                                Ver más
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!--Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <!--Pagination -->
+                <div class="swiper-pagination"></div>
+
+            </div>
+        </section>
+        
+        <!--==================== SERVICES ====================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">
+                Servicios
+            </h2>
+            <span class="section__subtitle">
+                Lo que ofrezco
+            </span>
+            <div class="services__container container grid">
+                <!--==================== SERVICES 1====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-web-grid services__icon"></i>
+                        <h3 class="services__title">Landing Page <br> 7 días</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver más
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">
+                                Landing Page <br>7 días
+                            </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-sevices grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>1 pagina
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Certificado SSL
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Web responsivo
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Diseño personalizado
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>50us Mantenimiento al mes
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 2====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-browser services__icon"></i>
+                        <h3 class="services__title">SEO básico <br> 5 dias</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver más
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">
+                                SEO básico <br> 5 dias
+                            </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-sevices grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Uso de palabras clave
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Optimización de html, css and js.
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Optimizar imágenes
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 3====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-cloud-slash services__icon"></i>
+                        <h3 class="services__title">Problemas técnicos <br> 5 dias</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver más
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">
+                                Problemas técnicos <br> 5 dias
+                            </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-sevices grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Solucionamos errores
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Problemas SSL
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Secciones dañadas
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 4====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-store-alt services__icon"></i>
+                        <h3 class="services__title">Tienda <br> 8 dias</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver más
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">
+                                Tienda <br> 8 dias
+                            </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-sevices grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>4 páginas
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Productos + Comentarios
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Carrito de compras
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>SSL + SEO
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Pagos
+                                    </p>
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>100us Mantenimiento al mes
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!--==================== SERVICES 5====================-->
+                <div class="services__content">
+                    <div>
+                        <i class="uil uil-shop services__icon"></i>
+                        <h3 class="services__title">BigEcommerce <br> 14 dias</h3>
+                    </div>
+
+                    <span class="button button--flex button--small button--link services__button">
+                        Ver más
+                        <i class="uil uil-arrow-right button__icon"></i>
+                    </span>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">
+                                BigEcommerce <br> 14 dias
+                            </h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-sevices grid">
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>6 Paginas
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Productos, Color y Tamaño
+
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Carrito de compras
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>SSL + SEO
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>Checkout
+                                    </p>
+                                </li>
+
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <p>150us Mantenimiento al mes
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about__buttons" id="descargar_servicios">
+                <a href="#"  onclick="showPopup()" class="button button--services">
+                    CONTÁCTANOS<i class="uil uil-lightbulb"></i>
+                </a>
+            </div>
+        </section>
+
+        <!--==================== TESTIMONIAL ====================-->
+        <section class="testimonial section">
+            <h2 class="section__title">Testimonial</h2>
+            <span class="section__subtitle">Lo que dicen mis clientes</span>
+
+            <div class="testimonial__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== TESTIMONIAL 1 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/testimonial1.jpg" alt="Fitness Republic" class="testimonial__img">
+
+
+                                <div>
+                                    <h3 class="testimonial__name">Fitness Republic</h3>
+                                    <span class="testimonial__client">Cliente</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+
+                        <p class="testimonial__description">
+                            He podido sacarle mucho partido a la pandemia gracias a mi gimnasio online y
+                            consolidar mis ventas a un nuevo nivel, crisodevelop.tech de los mejores servicios que pude
+                            contratar
+                        </p>
+                    </div>
+
+                    <!--==================== TESTIMONIAL 2 ====================-->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="assets/img/testimonial2.jpg" alt="Cris Angulo" class="testimonial__img">
+
+
+                                <div>
+                                    <h3 class="testimonial__name">Cris Angulo</h3>
+                                    <span class="testimonial__client">Cliente</span>
+                                </div>
+                            </div>
+
+                            <div>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                                <i class="uil uil-star testimonial__icon-star"></i>
+                            </div>
+                        </div>
+
+                        <p class="testimonial__description">
+                            Criso me ayudo con todo el proceso de configuración de mi fundación online y con la
+                            posibilidad de recibir donaciones.
+                        </p>
+                    </div>
+                </div>
+                <!--Pagination -->
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+
+     
         <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
-            <h2 class="section__title">Sobre mí</h2>
-            <span class="section__subtitle">Mi introducción</span>
+        <section class="about about-section" id="about">
+            <h2 class="section__title">¡Único Profesor con tutorías de Páginas web y Seo!</h2>
+            <span class="section__subtitle">Ahora te cuento un poco más.</span>
             <div class="about__container container grid">
-                <img src="assets/img/about.jpg" alt="desarrollador web" class="about__img">
+              
 
                 <div class="about__data">
                     <p class="about__description">
-                        Hola mi nombre es crisodevelop para amigos (criso) y es un gusto para mi compartir mi
-                        conocimiento contigo, soy creador de paginas web desde los 18 años.
+                        Hola mi nombre es crisodevelop para los amigos (criso). Actualmente tengo más de 35k estudiantes en Udemy, además de tutorías alrededor de todo el mundo
+                        en HTML, CSS, JS y Posicionamiento SEO.
 
-                        Me apasiona la web y todos los múltiples diseños y funcionalidades que puedo crear
-                        como
-                        Desarrollador web.
+                        
                     </p>
 
                     <div class="about__info">
@@ -189,11 +623,14 @@
                     </div>
 
                     <div class="about__buttons">
-                        <a download="" href="assets/pdf/Cv-Es.pdf" class="button button--flex">
-                            Descargar CV<i class="uil uil-download-alt button__icon"></i>
+                        <!-- download="" -->
+                        <a  href="#" class="button button--flex">
+                            Próximamente e-books<i class="uil uil-download-alt button__icon"></i>
                         </a>
                     </div>
+                    
                 </div>
+                <img src="assets/img/seo.png" alt="desarrollador web" class="about__img">
             </div>
         </section>
 
@@ -401,6 +838,29 @@
             </div>
         </section>
 
+        <!--==================== PROJECT IN MIND ====================-->
+        <section class="project pro-section">
+            <div class="project__bg">
+                <div class="project__container container grid">
+                    <div class="project__data">
+                        <div class="project__title">
+                            Cursos y Tutoriales Personalizados
+                        </div>
+                        <div class="project__description">
+                            ¡Sigue adelante el día de hoy! Criso con más de 3k de estudiantes
+                        </div>
+                        <a href="#" onclick="showPopup()"  class="button button--flex button--white">
+                            Tutorias personalizados
+                            <i class="uil uil-file-download-alt project__icon button__icon"></i>
+                        </a>
+
+                    </div>
+
+                    <img src="assets/img/project.png" alt="nuevo proyecto" class="project__img">
+                </div>
+            </div>
+        </section>
+
         <!--==================== QUALIFICATION ====================-->
         <section class="qualification section">
             <h2 class="section__title">
@@ -592,456 +1052,17 @@
                 </div>
         </section>
 
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
-            <h2 class="section__title">
-                Services
-            </h2>
-            <span class="section__subtitle">
-                Lo que ofrezco
-            </span>
-            <div class="services__container container grid">
-                <!--==================== SERVICES 1====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-web-grid services__icon"></i>
-                        <h3 class="services__title">Landing Page <br> 7 días</h3>
-                    </div>
+        
 
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver más
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">
-                                Landing Page <br>7 días
-                            </h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            <ul class="services__modal-sevices grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>1 pagina
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Certificado SSL
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Web responsivo
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Diseño personalizado
-                                    </p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>50us Mantenimiento al mes 
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 2====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-browser services__icon"></i>
-                        <h3 class="services__title">SEO básico <br> 5 dias</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver más
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">
-                                SEO básico <br> 5 dias
-                            </h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            <ul class="services__modal-sevices grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Uso de palabras clave
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Optimización de html, css and js.
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Optimizar imágenes
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 3====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-cloud-slash services__icon"></i>
-                        <h3 class="services__title">Problemas técnicos <br> 5 dias</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver más
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">
-                                Problemas técnicos <br> 5 dias
-                            </h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            <ul class="services__modal-sevices grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Solucionamos errores
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Problemas SSL
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Secciones dañadas
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 4====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-store-alt services__icon"></i>
-                        <h3 class="services__title">Tienda <br> 8 dias</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver más
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">
-                                Tienda <br> 8 dias
-                            </h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            <ul class="services__modal-sevices grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>4 páginas
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Productos + Comentarios
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Carrito de compras
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>SSL + SEO
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Pagos
-                                    </p>
-                                </li>
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>100us Mantenimiento al mes 
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!--==================== SERVICES 5====================-->
-                <div class="services__content">
-                    <div>
-                        <i class="uil uil-shop services__icon"></i>
-                        <h3 class="services__title">BigEcommerce <br> 14 dias</h3>
-                    </div>
-
-                    <span class="button button--flex button--small button--link services__button">
-                        Ver más
-                        <i class="uil uil-arrow-right button__icon"></i>
-                    </span>
-
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">
-                                BigEcommerce <br> 14 dias
-                            </h4>
-                            <i class="uil uil-times services__modal-close"></i>
-                            <ul class="services__modal-sevices grid">
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>6 Paginas
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Productos, Color y Tamaño
-                                        
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Carrito de compras
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>SSL + SEO
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>Checkout
-                                    </p>
-                                </li>
-
-                                <li class="services__modal-service">
-                                    <i class="uil uil-check-circle services__modal-icon"></i>
-                                    <p>150us Mantenimiento al mes 
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="about__buttons" id="descargar_servicios">
-                <a download="" href="assets/pdf/Servicios.pdf" class="button button--services">
-                    Precios de los servicios<i class="uil uil-download-alt button__icon"></i>
-                </a>
-            </div>
-        </section>
-
-        <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title"> Portafolio</h2>
-            <span class="section__subtitle">
-                Trabajos mas reciente
-            </span>
-
-            <div class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--==================== PORTFOLIO 1 ====================-->
-
-                    <div class="portfolio__content grid swiper-slide">
-
-
-                        <img src="assets/img/portfolio1.jpg" alt="sitio de bodas" class="portfolio__img">
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">
-                                Jcweddinggrou / Sitio web moderno
-                            </h3>
-                            <p class="portfolio__description">
-                                Web responsive, un diseño elegante y bastante moderno para lograr un hermoso sitio de
-                                bodas </p>
-                            <a href="https://jcweddinggroup.com/" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Ver más
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 2 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio2.jpg" alt="Gym online" class="portfolio__img">
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">
-                                Sanaelweddingsboat.com
-                            </h3>
-                            <p class="portfolio__description">
-                                Sitio de bodas con catálogos completos y diferentes resultados.
-                            </p>
-                            <a href="https://www.sanaelweddingsboat.com/" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Ver más
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-
-                    </div>
-                    <!--==================== PORTFOLIO 3 ====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio3.jpg" alt="Sitio de bodas en botes" class="portfolio__img">
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">
-                                SanaelWeddingsboat
-                            </h3>
-                            <p class="portfolio__description">
-                                Maravillosa web en dos idiomas con un diseño acorde a la necesidad del cliente y
-                                ofreciendo sus grandes bodas en alta mar. </p>
-                            <a href="https://www.sanaelweddingsboat.com/" target="_blank"
-                                class="button button--flex button--small portfolio__button">
-                                Ver más
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!--Add Arrows -->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-
-                <!--Pagination -->
-                <div class="swiper-pagination"></div>
-
-            </div>
-        </section>
-
-        <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
-            <div class="project__bg">
-                <div class="project__container container grid">
-                    <div class="project__data">
-                        <div class="project__title">
-                            Cursos y Tutoriales Personalizados
-                        </div>
-                        <div class="project__description">
-                            ¡Sigue adelante el día de hoy! Criso con más de 3k de estudiantes
-                        </div>
-                        <a download="" href="assets/pdf/Tutoría.pdf" class="button button--flex button--white">
-                            Tutorias personalizados
-                            <i class="uil uil-file-download-alt project__icon button__icon"></i>
-                        </a>
-
-                    </div>
-
-                    <img src="assets/img/project.png" alt="nuevo proyecto" class="project__img">
-                </div>
-            </div>
-        </section>
-
-        <!--==================== TESTIMONIAL ====================-->
-        <section class="testimonial section">
-            <h2 class="section__title">Testimonial</h2>
-            <span class="section__subtitle">Lo que dicen mis clientes</span>
-
-            <div class="testimonial__container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--==================== TESTIMONIAL 1 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="assets/img/testimonial1.jpg" alt="Fitness Republic" class="testimonial__img">
-
-
-                                <div>
-                                    <h3 class="testimonial__name">Fitness Republic</h3>
-                                    <span class="testimonial__client">Cliente</span>
-                                </div>
-                            </div>
-
-                            <div>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                            </div>
-                        </div>
-
-
-                        <p class="testimonial__description">
-                            He podido sacarle mucho partido a la pandemia gracias a mi gimnasio online y
-                            consolidar mis ventas a un nuevo nivel, crisodevelop.tech de los mejores servicios que pude
-                            contratar
-                        </p>
-                    </div>
-
-                    <!--==================== TESTIMONIAL 2 ====================-->
-                    <div class="testimonial__content swiper-slide">
-                        <div class="testimonial__data">
-                            <div class="testimonial__header">
-                                <img src="assets/img/testimonial2.jpg" alt="Cris Angulo" class="testimonial__img">
-
-
-                                <div>
-                                    <h3 class="testimonial__name">Cris Angulo</h3>
-                                    <span class="testimonial__client">Cliente</span>
-                                </div>
-                            </div>
-
-                            <div>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                                <i class="uil uil-star testimonial__icon-star"></i>
-                            </div>
-                        </div>
-
-                        <p class="testimonial__description">
-                            Criso me ayudo con todo el proceso de configuración de mi fundación online y con la posibilidad de recibir donaciones.
-                        </p>
-                    </div>
-                </div>
-                <!--Pagination -->
-                <div class="swiper-pagination swiper-pagination-testimonial"></div>
-            </div>
-        </section>
-
+        
         <!--==================== CONTACT ME ====================-->
-        <section class="contact" id="contact">
-            <h2 class="section__title">CONTÁCTAME</h2>
+        <section class="contact section" id="contact">
+            <h2 class="section__title">CONTÁCTANOS</h2>
             <span class="section__subtitle">Crisodevelop</span>
             <div class="social-contact">
 
 
-                <a class="icon fb" href="https://www.facebook.com/CRISODEVELOP" target="_blank"> <i
+                <a class="icon fb" href="https://www.facebook.com/CRISODEVELOP" rel="nofollow" target="_blank"> <i
                         class="uil uil-facebook-f"></i>
                     <span>Facebook</span>
                 </a>
@@ -1053,7 +1074,7 @@
                     <span>Linkedin</span>
                 </a>
 
-                <a class="icon git" href="https://github.com/Crisodevelop" target="_blank">
+                <a class="icon git" href="https://github.com/Crisodevelop" rel="nofollow" target="_blank">
                     <i class="uil uil-github"></i>
                     <span>GitHub</span>
                 </a>
@@ -1101,12 +1122,16 @@
 
     <!--==================== Tidio ====================-->
     <script src="//code.tidio.co/ctsrkh3towwcvbf1jgy4i396q8rb1xqr.js" async></script>
-    
+
     <!--==================== SWIPER JS ====================-->
     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--==================== MAIN JS ====================-->
     <script src="assets/js/main.js"></script>
+
+    <!--==================== Mailchimp ====================-->
+    <script id="mcjs" src="assets/js/mailchimp.js"></script>
+
 </body>
 
 </html>
