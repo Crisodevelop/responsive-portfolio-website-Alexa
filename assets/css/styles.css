@@ -118,6 +118,10 @@ body {
   color: var(--text-color);
 }
 
+.form-background{
+  background-color: var(--body-color);
+}
+
 h1,
 h2,
 h3,
@@ -153,6 +157,13 @@ img {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: var(--mb-3);
+}
+
+.section__subtitle_criso{
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: var(--mb-1);
+  text-align: center;
 }
 
 .section__title,
