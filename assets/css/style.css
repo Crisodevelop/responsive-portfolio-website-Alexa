@@ -1247,16 +1247,14 @@ section {
 	color           : #454545;
 }
 
-#message, #message-2{
+/* #message, #message-2{
   color: white; 
   margin-top: 2px;
   margin-bottom: 2px;
-}
+} */
 
-input#my-check{
-	background-color: white;
-	border: 0px !important;
-}
+
+  
 
 .bg-gray-4 {
 	background-color: #F2F1EF !important;
@@ -3811,3 +3809,5 @@ a.back span {
 		transform        : translateY(0);
 	}
 }
+
+

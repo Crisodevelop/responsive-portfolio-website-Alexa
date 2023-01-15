@@ -18,6 +18,7 @@
     -->
   <link href="assets/css/vendor.min.css" rel="stylesheet" />
   <link href="assets/css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/check.css">
 
 </head>
 
@@ -72,16 +73,21 @@
                   A design studio founded in London and expanded our services & become a multinational firm, offering
                   features Worldwide.</div>
                 <div class="hero-action text-center">
-                  <form  class="mb-0 form-action mailchimp">
+                  <form class="mb-0 form-action mailchimp">
                     <div class="input-group">
                       <input class="form-control" type="email" placeholder="Enter E-mail Address" required="required" />
 
                       <button type="submit" class="btn btn--secondary"><span>Download</span></button>
 
-                    </div> 
-                    <p id="message" for="confirm">Confirm</p>
-                    <input type="checkbox" id="my-check" name="confirm" >
+                    </div>
 
+                      <div class="checkbox">
+
+                        <input type="checkbox" id="my-check" name="confirm">
+                        
+                        <label id="message" for="confirm"> Confirm </label>
+                      </div>
+                    
                     <!--  End .input-group-->
                   </form>
 
@@ -524,11 +530,18 @@
                       <div class="input-group">
                         <input class="form-control" type="email" placeholder="Enter E-mail Address"
                           required="required" />
-                        <button type="submit" class="btn btn--secondary "><span href="./assets/img/about.jpg">download</span></button>
+                        <button type="submit" class="btn btn--secondary "><span
+                            href="./assets/img/about.jpg">download</span></button>
                       </div>
 
-                      <p id="message-2" for="confirm-2">Confirm</p>
-                      <input type="checkbox" id="my-checkbox" name="confirm-2" >
+
+                      <div class="checkbox">
+
+                        <input type="checkbox" id="my-checkbox" name="confirm-2">
+                        <label id="message-2" for="confirm-2">Confirm</label>
+                      </div>
+                     
+                      
                       <!--  End .input-group-->
                     </form>
                     <div class="subscribe-alert"></div>
