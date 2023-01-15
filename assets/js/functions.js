@@ -103,47 +103,57 @@
         link.href = "https://crisodevelop.tech/thanks"
         link.target = "_blank"
         link.click()
-      }
+    }
 
-      function mailchimpes() {
+    function mailchimpes() {
         var link = document.createElement("a")
         link.href = "https://crisodevelop.tech/gracias"
         link.target = "_blank"
         link.click()
-      }
-      
+    }
+
 
     $('.mailchimp').ajaxChimp({
-        url: "https://tech.us12.list-manage.com/subscribe/post?u=810c2318c507e153bb91b8fff&amp;id=12f95c0bce&amp;f_id=0068bee0f0", //Replace with your own mailchimp Campaigns URL.
-        callback: chimpCallback
+        url: "https://tech.us21.list-manage.com/subscribe/post?u=c19693fbbfee7557a15ce7b4b&amp;id=eecf79c853&amp;f_id=0083cce1f0", //Replace with your own mailchimp Campaigns URL.
+        callback: chimpCallbacken
 
     });
 
-    function chimpCallback(resp) {
-        if (resp.result === 'success') {
+    function chimpCallbackes(resp) {
+        if (resp.result === 'success' && document.getElementById("my-check").checked == true
+            || resp.result === 'success' && document.getElementById("my-checkbox").checked == true) {
+            document.getElementById("message").textContent = "Comprobado";
+            document.getElementById("message-2").textContent = "Comprobado";
             $('.subscribe-alert').html('<h5 class="alert alert-success">' + resp.msg + '</h5>').fadeIn(1000);
-            mailchimpen();
-            //$('.subscribe-alert').delay(6000).fadeOut();
+            mailchimpes();
 
-        } else if (resp.result === 'error') {
+        } else if (resp.result === 'error' && document.getElementById("my-check").checked == false
+            || resp.result === 'error' && document.getElementById("my-checkbox").checked == false) {
+            document.getElementById("message").textContent = "No Comprobado";
+            document.getElementById("message-2").textContent = "No Comprobado";
             $('.subscribe-alert').html('<h5 class="alert alert-danger">' + resp.msg + '</h5>').fadeIn(1000);
         }
     }
 
-    
+
     $('.mailchimp-es').ajaxChimp({
-        url: "https://tech.us12.list-manage.com/subscribe/post?u=810c2318c507e153bb91b8fff&amp;id=12f95c0bce&amp;f_id=0068bee0f0", //Replace with your own mailchimp Campaigns URL.
-        callback: chimpCallback
+        url: "https://tech.us21.list-manage.com/subscribe/post?u=c19693fbbfee7557a15ce7b4b&amp;id=eecf79c853&amp;f_id=0083cce1f0", //Replace with your own mailchimp Campaigns URL.
+        callback: chimpCallbackes
 
     });
 
-    function chimpCallback(resp) {
-        if (resp.result === 'success') {
+    function chimpCallbacken(resp) {
+        if (resp.result === 'success' && document.getElementById("my-check").checked == true
+            || resp.result === 'success' && document.getElementById("my-checkbox").checked == true) {
+            document.getElementById("message").textContent = "Checked";
+            document.getElementById("message-2").textContent = "Checked";
             $('.subscribe-alert').html('<h5 class="alert alert-success">' + resp.msg + '</h5>').fadeIn(1000);
             mailchimpes();
-            //$('.subscribe-alert').delay(6000).fadeOut();
 
-        } else if (resp.result === 'error') {
+        } else if (resp.result === 'error' && document.getElementById("my-check").checked == false
+            || resp.result === 'error' && document.getElementById("my-checkbox").checked == false) {
+            document.getElementById("message").textContent = "Not Checked";
+            document.getElementById("message-2").textContent = "Not Checked";
             $('.subscribe-alert').html('<h5 class="alert alert-danger">' + resp.msg + '</h5>').fadeIn(1000);
         }
     }
