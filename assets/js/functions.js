@@ -100,14 +100,14 @@
 
     function mailchimpen() {
         var link = document.createElement("a")
-        link.href = "https://crisodevelop.tech/thanks"
+        link.href = "https://crisodevelop.tech/thanks/thanks"
         link.target = "_blank"
         link.click()
     }
 
     function mailchimpes() {
         var link = document.createElement("a")
-        link.href = "https://crisodevelop.tech/gracias"
+        link.href = "https://crisodevelop.tech/thanks/gracias"
         link.target = "_blank"
         link.click()
     }
