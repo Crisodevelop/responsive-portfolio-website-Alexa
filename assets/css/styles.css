@@ -159,6 +159,13 @@ img {
   margin-bottom: var(--mb-3);
 }
 
+.section__subtitle_meet {
+  display: block;
+  font-size: var(--small-font-size);
+  margin-bottom: -2rem;
+  text-align: center;
+}
+
 .section__subtitle_criso{
   display: block;
   font-size: var(--small-font-size);
