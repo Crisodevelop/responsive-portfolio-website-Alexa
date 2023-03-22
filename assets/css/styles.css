@@ -162,7 +162,7 @@ img {
 .section__subtitle_meet {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: -2rem;
+  margin-bottom: 1%;
   text-align: center;
 }
 
